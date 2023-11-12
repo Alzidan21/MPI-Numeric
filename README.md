@@ -1,4 +1,4 @@
-![Numeric](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/8f2c0725-1389-4647-845c-f1440c16fbc8)# Numeric-MPI With Python
+# Numeric-MPI With Python
 This repository will discuss how to install MPI and how to execute the Numeric Python program using Ubuntu Server 22.04 as the operating system used.
 
 # Installation MPI On Ubuntu Server
@@ -47,7 +47,7 @@ Do it on master <br> **mpiexec -n <Numbers Of core> python -m mpi4py.bench hello
 
 ## 2. Making Program Numeric Python 
 The Code Of Numeric <br>
-[Numeric](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/8ee3966a-b4b3-4594-84c1-bc0e6fae67ee)
+![Numeric](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/8f2c0725-1389-4647-845c-f1440c16fbc8)
 
 ## 3. Copy File Python on All Slave
 **~path$ scp /path/to/locate/bin * user@hostname_or_ip:path/to** <br>
