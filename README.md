@@ -1,5 +1,5 @@
-# BubbleSort-MPI With Python
-This repository will discuss how to install MPI and how to execute the Buble Sort Python program using Ubuntu Server 22.04 as the operating system used.
+![Numeric](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/8f2c0725-1389-4647-845c-f1440c16fbc8)# Numeric-MPI With Python
+This repository will discuss how to install MPI and how to execute the Numeric Python program using Ubuntu Server 22.04 as the operating system used.
 
 # Installation MPI On Ubuntu Server
 ## Topologi
@@ -41,18 +41,18 @@ Do It On Master And Slave <br>
 Do it on master <br> **mpiexec -n <Numbers Of core> python -m mpi4py.bench helloworld**<br>
 <img width="404" alt="percobaan" src="https://github.com/feliana444/Eksekusi-Program-Buble-Sort-Python-Menggunakan-MPI/assets/145323449/8e1d12c1-2d12-4016-afd9-341b1eea56e7">
 
-# How Run Bubblesort MPI With MultiNode
+# How Run Numeric MPI With MultiNode
 ## 1. Copy id Master To All Slave 
 **ssh-copy-id user@hostname_or_ip**
 
-## 2. Making Program BubleSort Python 
-The Code Of BubbleSort <br>
-![G2](https://github.com/feliana444/Eksekusi-Program-Buble-Sort-Python-Menggunakan-MPI/assets/145323449/06f0602c-f77c-4e96-a9cc-2bcae83c3c68)
+## 2. Making Program Numeric Python 
+The Code Of Numeric <br>
+[Numeric](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/8ee3966a-b4b3-4594-84c1-bc0e6fae67ee)
 
 ## 3. Copy File Python on All Slave
 **~path$ scp /path/to/locate/bin * user@hostname_or_ip:path/to** <br>
-![image](https://github.com/feliana444/Eksekusi-Program-Buble-Sort-Python-Menggunakan-MPI/assets/145323449/d6455bd1-4c86-41e2-9116-f5648166b92c)
 
 ## 4. Output
-![image](https://github.com/feliana444/Eksekusi-Program-Buble-Sort-Python-Menggunakan-MPI/assets/145323449/72d92ade-9125-4b55-b043-add4c0e6ee1f)
+**With Command**: **mpirun -n 4 -host danserver,slave,slave2,slave3 python3 numerik.py**
+![Multi](https://github.com/Alzidan21/MPI-Numeric/assets/105232288/1cd294c7-0159-4d75-85d5-30f5ecff1500)
 
